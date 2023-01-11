@@ -1,0 +1,41 @@
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue">JH</span><span>-</span><span class="main-header__title--red">COMPUTERS</span>
+    </h1>
+    <div class="container-menu">
+    <nav class="main-header__menu">
+        <ul>
+            <li>
+                <a href="http://localhost:4200/"><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li>
+                <a href="http://localhost:4200/produtos">Produtos</a>
+            </li>
+            <li>
+                <a href="http://localhost:4200/carrinho">
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    Carrinho
+                    <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:4200/contato">Contato</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/josehenrique.martucci"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/martuccij/"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/jhmartucci1978"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jhmartucci/"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <app-barra-pesquisa></app-barra-pesquisa>    
+    </div>
+</header>
